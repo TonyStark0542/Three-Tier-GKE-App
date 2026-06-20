@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category - Read Right</title>
+    <link rel="stylesheet" type="text/css" href="static/css/index.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div id="logo"><a href="index.html" class="logo_style">READ RIGHT</a></div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search book by author or publisher....." id="search-input">
+            </div>
+            <div class="header-right">
+                <a href="#">FAQ</a>
+                <a href="#">Track Order</a>
+                <div class="cart-icon">
+                    <a href="#"><img src="static/images/cart-icon-1-removebg-preview.png" alt="Cart"></a>
+                </div>
+                <div class="buttonpos"><button class="pos">Login</button></div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Categories</a>
+                    <div class="dropdown-content">
+                        <a href="category.html?name=Classic Literature">Classic Literature</a>
+                        <a href="category.html?name=Modern Classics">Modern Classics</a>
+                        <a href="category.html?name=Fiction">Fiction</a>
+                        <a href="category.html?name=Contemporary Fiction">Contemporary Fiction</a>
+                        <a href="category.html?name=Poetry">Poetry</a>
+                    </div>
+                </li>
+                <li><a href="index.html">Best Sellers</a></li>
+                <li><a href="index.html">New Arrivals</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 class="heading" id="cat-name">Loading Category...</h1>
+            <div class="books-grid" id="books-grid">
+                </div>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <div class="footer-links">
+            <ul>
+                <li><a href="index.html">Privacy Policy</a></li>
+                <li><a href="index.html">Terms of Service</a></li>
+                <li><a href="index.html">Refund Policy</a></li>
+                <li><a href="index.html">FAQ</a></li>
+                <li><a href="index.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="static/js/config.js"></script>
+    <script src="static/js/category.js"></script>
+</body>
+</html>
